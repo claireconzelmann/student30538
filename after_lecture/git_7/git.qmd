@@ -20,8 +20,10 @@ format:
 * How (not) to learn git 
 * Git vs. Github vs. Github Desktop
 
+<!--
 ## What is version control?
 ![](img/comic.png){fig-align="center" height=100%}
+-->
 
 ## What is version control?
 * Version control: a system that records changes to a file or set of files over time so that you can recall specific versions later
@@ -519,7 +521,7 @@ preserved in case we want to revive it
 
 Goal: the file *add.py* should look identical on `main` and `iss53`
 
-1. `git fork https://github.com/uchicago-harris-dap/merge_example` 
+1. On github.com, fork `https://github.com/uchicago-harris-dap/merge_example` 
 2. Clone your fork to local
 3. Merge `iss53` into `main`, naming your commit `C5`
 4. Using VSCode, resolve the conflict in favor of the `iss53` version
